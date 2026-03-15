@@ -99,6 +99,19 @@ main {
   font-family: "Fraunces", "Times New Roman", serif;
   font-size: 1.4rem;
   letter-spacing: 0.04em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+}
+
+.logo-mark {
+  width: 34px;
+  height: 34px;
+  flex: 0 0 auto;
+}
+
+.logo-text {
+  display: inline-block;
 }
 
 .nav-links {
